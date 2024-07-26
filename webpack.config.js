@@ -16,9 +16,7 @@ module.exports = {
         app: path.resolve(__dirname, './src/js/index.js')
     },
     snapshot: {
-        managedPaths: [
-            /^(.+?[\\/]node_modules[\\/](@abc[\\/]xyz|@abc[\\/]zyx)([\\/]|$))/
-        ]
+        managedPaths: [path.resolve(__dirname, 'node_modules')]
     },
     watchOptions: {
         followSymlinks: true
