@@ -7,11 +7,11 @@ import Hyperlink from './Hyperlink';
 export default function Navbar() {
     return (
         <nav class='flex items-center text-nowrap bg-[#3f3250] p-4 text-white/75 lg:p-0 xl:h-16'>
-            <menu class='container mx-auto flex flex-col xl:flex-row xl:items-center xl:gap-0'>
-                <ul class='flex flex-col xl:me-auto xl:flex-row xl:items-center'>
+            <menu class='container mx-auto flex flex-col gap-4 xl:flex-row xl:items-center xl:gap-0'>
+                <ul class='flex flex-col gap-4 xl:me-auto xl:flex-row xl:items-center xl:gap-0'>
                     <li class='flex items-center font-black text-white'>
                         <Hyperlink
-                            extraClasses='xl:px-4 py-8'
+                            extraClasses='px-2 py-4'
                             href='https://oregon.public.law/'
                             body={
                                 <div class='flex items-center gap-2'>
@@ -46,7 +46,7 @@ export default function Navbar() {
                         />
                     </li>
                 </ul>
-                <ul class='flex flex-col xl:flex-row xl:items-center'>
+                <ul class='flex flex-col gap-4 xl:flex-row xl:items-center xl:gap-0'>
                     <li>
                         <search>
                             <input

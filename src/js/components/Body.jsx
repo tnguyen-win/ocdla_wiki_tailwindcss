@@ -6,7 +6,7 @@ import Hyperlink from './Hyperlink';
 
 export default function Body() {
     return (
-        <main class='flex flex-col gap-4 p-8'>
+        <main class='flex flex-col gap-4 p-4 lg:p-8'>
             <div>
                 <h1 class='text-4xl font-bold'>ORS 1.001</h1>
                 <p class='text-3xl font-thin'>State policy for courts</p>
