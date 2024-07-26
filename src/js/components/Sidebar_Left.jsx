@@ -6,7 +6,7 @@ import ItemPage from './ItemPage';
 
 export default function Sidebar_Left() {
     return (
-        <aside class='hidden h-[75vh] overflow-y-auto xl:block xl:w-[67.5%]'>
+        <aside class='hidden h-[75vh] overflow-y-auto xl:block'>
             <ul>
                 <ItemPage
                     active={true}

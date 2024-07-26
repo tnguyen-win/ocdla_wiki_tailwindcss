@@ -6,7 +6,7 @@ import Hyperlink from './Hyperlink';
 
 export default function Navbar() {
     return (
-        <nav class='flex items-center text-nowrap bg-[#3f3250] p-4 text-white/75 lg:p-0 xl:h-16'>
+        <nav class='flex items-center text-nowrap bg-[#3f3250] p-4 text-white/75 xl:h-16 xl:p-0'>
             <menu class='container mx-auto flex flex-col gap-4 xl:flex-row xl:items-center xl:gap-0'>
                 <ul class='flex flex-col gap-4 xl:me-auto xl:flex-row xl:items-center xl:gap-0'>
                     <li class='flex items-center font-black text-white'>

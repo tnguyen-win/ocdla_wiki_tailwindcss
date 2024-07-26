@@ -6,7 +6,7 @@ import Hyperlink from './Hyperlink';
 
 export default function Sidebar_Right() {
     return (
-        <aside class='flex flex-col text-nowrap xl:w-[67.5%]'>
+        <aside class='flex flex-col text-nowrap'>
             <h1 class='border-b-zinc flex gap-8 text-nowrap border-b-4 bg-zinc-100 px-4 py-2'>
                 <p>Up to date</p>
                 <img

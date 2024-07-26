@@ -17,8 +17,8 @@ export default function App() {
                 <Breadcrumbs />
             </header>
             <div class='container mx-auto'>
-                <div class='flex flex-col xl:flex-row'>
-                    {/* <div class='grid grid-cols-3'> */}
+                {/* <div class='flex flex-col xl:flex-row'> */}
+                <div class='xl:grid xl:grid-cols-6'>
                     <Sidebar_Left />
                     <Body />
                     <Sidebar_Right />
